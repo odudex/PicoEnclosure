@@ -1,0 +1,14 @@
+# SolidCraft writes a backup on every save and a lock file while a design is open
+*.bak
+.~*.lock
+
+# Local tooling: Claude Code skills and settings, MCP server setup with this machine's paths
+.claude/
+.mcp.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Vendor drawings and STEP files: not ours to redistribute
+references/

@@ -1,0 +1,5 @@
+# SolidCraft designs are zip containers
+*.sc binary
+
+# STEP exports are long text files: store as text, but skip line diffs
+*.step -diff
